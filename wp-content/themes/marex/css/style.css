@@ -1,0 +1,569 @@
+#nav_01 { background-color: gray; }
+#nav_01 a#toggle { border: 1px solid lightgray; background: #ebebeb; }
+#nav_01 img { background-color: gray; border-radius: 50%; }
+#nav_01.collapse { background-color: transparent; }
+
+
+header a#logo {
+   
+}
+
+section#top {
+    background: url(../img/imgbg07.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+section#top > div {
+    background-color: rgba(42,49,57,0.45);
+}
+
+section#top ul li, section#works ul li {
+    font-size: .8em;
+}
+
+section#top a {
+    color: white;
+}
+
+section#top ul li div.article > div.block {
+
+}
+
+section#top ul li div.article img {margin-right: 2vw;margin-bottom: 15px;width: 50px;float: left;}
+
+section#top ul li div.article > div.main_block h2, section#top ul li div.article > div.block h2 {
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 1.8em;
+    line-height: 1.1;
+}
+
+section#top ul li div.article > div.block ul {
+    margin: 15px 0;
+    padding: 0;
+    font-size: 1.1em;
+    line-height: 1.5;
+    font-weight: 700;
+    opacity: 0.9;
+}
+
+section#top > div > ul > li > div.article > div.main_block p {
+    font-size: 1.2em;
+    padding-right: 20px;
+    padding-left: 10vw;
+}
+
+section#top ul li div.article div.sub_block h2 {
+    font-size: 1.4em;
+    padding-left: 7vw;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+section#top ul li div.article > div.main_block ul, section#top ul li div.article div.sub_block ul {
+    margin: 15px 0;
+    padding: 0;
+    font-size: 1.1em;
+    line-height: 1.1;
+    font-weight: 700;
+    opacity: 0.75;
+}
+
+section#top ul li div.article > div.buttons {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+section#top ul li div.article > div.buttons a {
+    flex: 0;
+}
+section#top ul li div.article > div.special a, section#top ul li div.article > div.main_block a {
+    margin-top: 2vh;
+    margin-right: 1vw;
+    margin-left: 0;
+    display: inline-block;
+}
+section#top ul li div.article > div.main_block a:last-child {
+    margin-right: 0;
+}
+section#top ul li div.article > div.main_block ul {
+    font-size: 1.3em;
+    margin: 3vh 1vw 1vh 0;
+    opacity: 1;
+    display: flex;
+    flex-flow: row wrap;
+}
+section#top ul li div.article > div.main_block > ul > li {
+    flex: 1 32%;
+    background-color: #ffdd00;
+    color: #333333;
+    padding: 10px;
+    margin-top: 2px;
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+section#top ul li div.article > div.main_block > ul > li + li {
+    margin-left: 2px;
+}
+section#top ul li:nth-child(2) div.article div.main_block ul li:nth-child(1):after {content: url(../img/new-goods.svg);position: absolute;top: 10px;right: 15px;width: 35px;}
+section#top ul li:nth-child(2) div.article div.main_block ul li:nth-child(2):after {content: url(../img/globes.svg);position: absolute;bottom: 5px;right: 15px;width: 32px;}
+section#top ul li:nth-child(2) div.article div.main_block ul li:nth-child(3):after {content: url(../img/price.svg);position: absolute;top: 0px;right: 0;width: 45px;}
+section#top ul li:nth-child(4) div.article div.main_block ul li:nth-child(4):after {content: url(../img/globes.svg);position: absolute;bottom: 5px;right: 10px;width: 40px;}
+section#top ul li:nth-child(4) div.article div.main_block ul li:nth-child(5):after {content: url(../img/price.svg);position: absolute;top: 0px;right: 10px;width: 50px;}
+
+section#top ul li:nth-child(3) div.article div.main_block a {
+    margin-left: 130px;
+}
+section#top ul li:nth-child(3) div.article div.sub_block ul li:nth-child(2) span {
+    /* float: initial; */
+    /* width: 100%; */
+    /* text-align: left; */
+    white-space: nowrap;
+}
+section#top ul li:nth-child(4) div.article > div.main_block > ul > li:nth-child(4) {
+    margin-left: 0;
+}
+section#top ul li:nth-child(4) div.article > div.main_block > ul > li:nth-child(4) span,
+section#top ul li:nth-child(4) div.article > div.main_block > ul > li:nth-child(5) span {
+    float: initial;
+}
+section#top ul li div.article > div.main_block > ul > li > span {
+    display: block;
+    font-size: 1.8em;
+    font-weight: 700;
+    font-family: inherit;
+}
+section#top ul li div.article > div.special a {
+    float: left;
+    margin-left: 0;
+}
+
+section#top ul li div.article {
+    flex-flow: column wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    height: 70vh;
+    padding-top: 7vh;
+}
+
+section#top ul li div.article > div.main_block {
+    width: 40vw;
+    padding-top: 0;
+}
+
+section#top ul li div.article div.sub_block {
+    position: relative;
+    width: 40vw;
+    padding: 12px 11vw 12px 1vw;
+    /* border-left: 1px solid rgba(255, 255, 255, 0.5); */
+    background-color: rgba(18, 79, 212, 0.25);
+}
+section#top ul li div.article div.sub_block + div {
+    margin-top: 3vh;
+}
+section#top ul li div.article div.sub_block p {
+    font-size: 1em;
+    padding: 15px 15px 5px 1vw;
+    margin: 0;
+    line-height: 1.3;
+}
+
+section#top ul li div.article div.sub_block ul {
+    width: 170px;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    right: -50px;
+    top: 0;
+}
+section#top ul li div.article div.sub_block ul li {
+    background-color: #ffdd00;
+    color: #333333;
+    padding: 10px 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+}
+section#top ul li div.article div.sub_block ul li + li {
+    margin-top: 2px;
+}
+section#top ul li div.article div.sub_block ul li span {
+    display: block;
+    font-size: 1.1em;
+    font-weight: 700;
+    font-family: inherit;
+    float: left;
+    width: 90px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+section#top ul li div.article div.sub_block img {
+    position: absolute;
+    width: 50px;
+    left: 2vw;
+    top: 20px;
+}
+
+section#top ul li div.article > div.special a + a, section#top ul li div.article > div.main_block a + a {
+    margin-top: 20px;
+}
+
+section#top ul li:nth-child(4) div.article div.sub_block {
+    padding-right: 1vw;
+}
+
+section#top ul li:nth-child(4) div.article div.sub_block:nth-child(2) p {
+}
+
+section#top ul li:nth-child(4) div.article div.main_block ul li span {float: left;margin-right: 10px;}
+
+section#top ul li:nth-child(3) div.article div.sub_block:nth-child(2) p {
+}
+
+section#top ul li.active div.article {
+    left: 5vw;
+}
+
+
+@media only screen and (min-width: 1200px) {
+	section#top ul li:first-child div p {padding-right: 20%;max-width: 1185px;}
+	section#top ul li div.article > div.main_block > img {margin-right: 40px;width: 90px;}
+	section#top > div > ul > li > div.article > div.main_block p {
+    padding-left: 130px;
+}
+	section#top ul li div.article div.sub_block {
+    max-width: 460px;
+    padding-right: 110px;
+}
+	section#works div#works_list ul#works_cases li {
+    flex: 1 24%!important;
+    max-width: 25%;
+}
+	section#contact div#contact_data > ul {
+    padding: 10vh 0;
+}
+}
+@media only screen and (max-width: 1024px) {
+	
+	section#top ul li div.article {
+    height: 70vh;
+    width: 90vw;
+}
+	section#top ul li div.article > div.main_block {
+		width: 50vw;
+	}
+	section#top ul li div.article > div.main_block > ul > li > span {
+    font-size: 1.5em;
+}
+	section#top > div > ul > li > div.article > div.main_block p {
+    padding-left: 0;
+}
+	section#top ul li:nth-child(3) div.article div.main_block a {
+    margin-left: 0;
+}
+	section#top ul li:nth-child(4) div.article div.main_block ul li:nth-child(4):after {
+    width: 30px;
+}
+	section#top ul li:nth-child(4) div.article div.main_block ul li:nth-child(5):after {
+    width: 36px;
+}
+	section#top ul li div.article div.sub_block {padding-right: 1vw;}
+	section#top ul li div.article div.sub_block h2 {
+    padding-left: 9vw;
+}
+	section#top ul li div.article div.sub_block p {
+		display: none;
+	}
+	section#top ul li:nth-child(4) div.article div.sub_block:nth-child(2) p {
+    display: block;
+    width: 100%;
+    padding-right: 1vw;
+}
+	section#top ul li:nth-child(4) div.article div.sub_block:nth-child(3) p {
+    display: block;
+    width: 100%;
+    padding-right: 1vw;
+}
+	section#top ul li div.article div.sub_block ul {
+	position: static;
+	display: flex;
+	flex-flow: row nowrap;
+	margin-top: 20px;
+	width: 100%;
+	}
+	section#top ul li div.article div.sub_block ul li {
+    flex: 1 33%;
+}
+	section#top ul li div.article div.sub_block ul li + li {
+    margin-top: 0;
+    margin-left: 2px;
+}
+	section#top ul li div.article div.sub_block ul li span {
+    text-align: left;
+}
+}
+@media only screen and (max-width: 1020px) and (orientation : landscape) {
+
+	section#top > div > ul {
+    width: 90%;
+}
+	section#top ul li div.article a {
+		font-size: 1em;
+		padding: 7px 15px 8px;
+		margin-top: 10px;
+	}
+	section#top ul li div.article > div.main_block {
+		padding: 0;
+	}
+	section#top ul li div.article > div > img {
+		width: 40px;
+	}
+	section#top ul li div.article > div.main_block img {
+    width: 50px;
+    margin-bottom: 5px;
+}
+	section#top ul li div.article > div.main_block h2 {
+		font-size: 1.5em;
+		margin-bottom: 4vh;
+		margin-top: 0;
+	}
+	section#top ul li div.article > div.main_block ul {
+		margin: 0 0 10px;
+		font-size: 1em;
+		line-height: 1.2;
+	}
+	section#top ul li div.article > div.main_block > ul > li {
+    padding: 7px 10px;
+    font-size: 0.85em;
+}
+	section#top ul li div.article > div.main_block > ul > li +li {}
+	section#top ul li div.article > div.main_block > ul > li > span {
+    font-size: 1.8em;
+}
+	section#top ul li:nth-child(2) div.article div.main_block ul li:nth-child(1):after {
+    width: 30px;
+    top: 5px;
+}
+	section#top ul li:nth-child(2) div.article div.main_block ul li:nth-child(2):after {
+    width: 25px;
+    bottom: 3px;
+}
+	section#top ul li:nth-child(2) div.article div.main_block ul li:nth-child(3):after {
+    width: 40px;
+}
+	section#top ul li:nth-child(4) div.article div.main_block ul li:nth-child(4):after {
+    width: 30px;
+}
+	section#top ul li:nth-child(4) div.article div.main_block ul li:nth-child(5):after {
+    width: 30px;
+}
+
+	section#top > div > ul > li > div.article > div.main_block p {
+    font-size: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 1.2;
+}
+	section#top ul li div.article > div.main_block a {
+		margin-top: 0;
+		margin-right: 20px;
+	}	
+	section#top ul li div.article > div.main_block a + a {
+    margin-top: 10px;
+}
+	section#top ul li div.article div.sub_block {
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 0;
+    width: 37vw;
+}
+	section#top ul li div.article div.sub_block + div {
+    margin-top: 1vh;
+}
+	section#top ul li div.article div.sub_block img {
+    width: 36px;
+    left: 10px;
+    top: 10px;
+}
+	section#top ul li div.article div.sub_block h2 {
+    padding-left: 50px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+	section#top ul li div.article div.sub_block ul {
+    line-height: 1.2;
+    margin: 5px 0 0;
+    width: 110%;
+}
+	section#top ul li div.article div.sub_block ul li {
+    padding: 5px;
+    font-size: 0.8em;
+    line-height: 1;
+}
+	section#top ul li div.article div.sub_block ul li span {
+    padding: 0;
+    float: none;
+    font-size: 1.6em;
+}
+
+	section#top ul li div.article div.sub_block p span {
+    display: none;
+}
+	section#top ul li:nth-child(4) div.article div.sub_block {
+    padding: 8px;
+}
+	section#top ul li:nth-child(4) div.article div.sub_block:nth-child(2) p {
+    line-height: 1.2;
+    padding: 0;
+    font-size: 0.85em;
+}
+	section#top ul li:nth-child(4) div.article div.sub_block:nth-child(3) p {
+    line-height: 1.2;
+    padding: 4px 0px 0 0;
+    font-size: 0.85em;
+}
+}
+@media only screen and (max-width: 700px) {
+	header nav#top_contact > ul {
+		padding: 0 10px;
+	}
+	section#top ul li div.article a {
+		font-size: 1em;
+	}
+	section#top ul li div.article > div.main_block {
+    width: 100%;
+}
+	section#top ul li div.article div.sub_block {
+		display: none;
+	}
+}
+@media only screen and (max-width: 700px) and (orientation : landscape) {
+	section#top ul li div.article a {
+
+	}
+	section#top ul li div.article > div.main_block {width: 80%;position: relative;margin: 0 auto;}
+	section#top ul li div.article > div > img {
+
+	}
+	section#top ul li div.article > div.main_block h2 {font-size: 1.2em;margin-bottom: 30px;}
+	section#top ul li div.article > div.main_block ul {margin-bottom: 2vh;}
+	section#top > div > ul > li > div.article > div.main_block p {position: absolute;right: 0;top: 0;width: 51%;font-size: 0.8em;text-align: right;}
+	section#top ul li div.article > div.main_block > ul > li {
+    padding: 7px 10px;
+}
+
+	section#top ul li div.article > div.main_block a {
+    margin-top: 2vh;
+}	
+	section#top ul li:nth-child(3) div.article div.main_block p {
+    position: static;
+    width: 90%;
+}
+	section#top ul li:nth-child(3) div.article div.main_block a {
+    margin-left: 0;
+}
+	
+	section#top ul li div.article div.sub_block {}
+	section#top ul li div.article div.sub_block img {
+
+	}
+	section#top ul li div.article div.sub_block h2 {
+
+	}
+	section#top ul li div.article div.sub_block ul {
+
+	}
+	section#top ul li:nth-child(4) div.article div.sub_block:nth-child(2) p {
+
+	}
+	section#top ul li:nth-child(4) div.article div.sub_block:nth-child(3) p {
+
+	}
+
+}
+@media only screen and (max-width: 500px) {
+	a#scrolltop {display: none;}
+	section#top > div > ul > li > button {
+}
+	section#top ul li.active div.article {
+    height: 75vh;
+    padding-top: 5vh;
+    top: -75vh;
+}
+	section#top ul li div.article a {
+		padding: 7px 15px 8px;
+		margin-top: 4vh;
+		font-size: 1.2em;
+	}
+	section#top > div > ul {
+    width: 100%;
+    padding: 0;
+}
+	section#top ul li div.article > div.main_block {
+    margin: 0;
+}
+	section#top ul li div.article > div.main_block h2 {
+    margin-bottom: 3vh;
+}
+	section#top > div > ul > li > div.article > div.main_block p {
+    padding: 10px 0 0;
+    margin-bottom: 4vh;
+    font-size: 1.1em;
+}
+	section#top ul li div.article > div.main_block ul {
+    margin: 3vh 0;
+    font-size: 1.2em;
+}
+	section#top ul li div.article > div.main_block ul li {
+    line-height: 1.1;
+    padding: 10px 8px;
+}
+	section#top ul li div.article > div.main_block > ul > li > span {
+    font-size: 1.5em;
+}
+	section#top ul li div.article > div.main_block a {
+    margin-top: 2vh;
+}
+	section#top ul li div.article > div.main_block a + a {
+    margin-top: 4vh;
+}
+	section#top ul li:nth-child(2) div.article div.main_block ul li:nth-child(1):after {
+    width: 25px;
+    top: 5px;
+}
+	section#top ul li:nth-child(2) div.article div.main_block ul li:nth-child(2):after {
+    width: 25px;
+}
+	section#top ul li:nth-child(2) div.article div.main_block ul li:nth-child(3):after {
+    width: 35px;
+    right: 0px;
+}
+	section#top ul li:nth-child(4) div.article div.main_block ul li:nth-child(4):after {
+    width: 25px;
+}
+	section#top ul li:nth-child(4) div.article div.main_block ul li:nth-child(5):after {
+    width: 30px;
+}
+	section#top ul li:nth-child(4) div.article div.main_block ul li span {
+    float: none;
+}
+	section#top ul li:nth-child(3) div.article div.main_block a {
+    margin-left: 0;
+}
+}
+@media only screen and (max-width: 500px) and (orientation : landscape) {
+	section#top ul li div.article > div.main_block > ul > li {}
+
+}	
+@media only screen and (max-width: 300px) {
+
+
+}
+

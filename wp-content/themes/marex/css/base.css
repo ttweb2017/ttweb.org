@@ -1,0 +1,50 @@
+div#main {
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 16px;
+}
+
+div#wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+aside {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 20%;
+}
+
+main {
+    display: flex;
+    flex: 1 80%;
+    /* border-left: 1px solid lightgray; */
+    min-height: 600px;
+}
+header {}
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 100%;
+    border-top: 1px solid lightgray;
+    min-height: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
